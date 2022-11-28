@@ -17,7 +17,7 @@
 # * https://github.com/marketplace/actions/cancel-workflow-action
 # * https://github.com/vmactions/freebsd-vm
 
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 name: build
 jobs:
   # Linux + macOS + Python 3
